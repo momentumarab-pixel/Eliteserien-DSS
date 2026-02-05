@@ -38,8 +38,7 @@ import streamlit as st
 BASE_DIR = Path(__file__).resolve().parent
 
 PARQUET_PATH = BASE_DIR / "data" / "eliteserien_2025_enriched.parquet"
-LOGO_DIR = BASE_DIR / "assets" / "logos"   # valgfritt
-KIT_DIR = BASE_DIR / "assets" / "kits"     # valgfritt
+APP_TITLE = "Eliteserien DSS"
 
 
 
